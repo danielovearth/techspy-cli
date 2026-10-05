@@ -1,0 +1,47 @@
+{
+  "name": "techspy",
+  "version": "0.1.1",
+  "description": "Detect any website's tech stack, DNS and email security from your terminal or a coding agent. CLI for the TechSpy API.",
+  "type": "module",
+  "bin": {
+    "techspy": "bin/techspy.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "tech-stack",
+    "technology-detection",
+    "website-analysis",
+    "website-scanner",
+    "dns",
+    "dmarc",
+    "spf",
+    "email-security",
+    "subdomains",
+    "sitemap",
+    "competitive-intelligence",
+    "sales-intelligence",
+    "cli",
+    "ai-agent",
+    "coding-agent",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://techspy.hi-daniel.com/api-docs#cli",
+  "license": "MIT",
+  "author": {
+    "name": "TechSpy",
+    "url": "https://techspy.hi-daniel.com"
+  }
+}
