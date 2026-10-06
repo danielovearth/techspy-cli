@@ -76,3 +76,4 @@ Exit codes let you branch without parsing text:
 | 5 | Rate limited (429) |
 | 6 | Not found (404) |
 
+Source: https://github.com/danielovearth/techspy-cli

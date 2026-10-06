@@ -9,7 +9,7 @@ import { homedir } from "node:os";
 import { join } from "node:path";
 import { createInterface } from "node:readline";
 
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 const DEFAULT_BASE = "https://techspy.hi-daniel.com";
 
 // Exit codes: agents can branch on these without parsing text.

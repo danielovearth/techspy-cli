@@ -160,7 +160,9 @@ test("package metadata: version matches --version, no third-party trademarks in 
   const r = await cli(["--version"]);
   assert.equal(r.out.trim(), pkg.version);
   for (const k of pkg.keywords) assert.doesNotMatch(k, /wappalyzer|builtwith/i);
-  assert.equal(pkg.repository, undefined); // waits on Daniel making a public repo
+  // Public source repo (D-021 runbook §5): npm links to it.
+  assert.equal(pkg.repository.url, "git+https://github.com/danielovearth/techspy-cli.git");
+  assert.equal(pkg.bugs.url, "https://github.com/danielovearth/techspy-cli/issues");
 });
 
 test("README says a Plus or Max key is required up front and shows MCP early", () => {

@@ -1,6 +1,6 @@
 {
   "name": "techspy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Detect any website's tech stack, DNS and email security from your terminal or a coding agent. CLI for the TechSpy API.",
   "type": "module",
   "bin": {
@@ -39,6 +39,13 @@
     "cursor"
   ],
   "homepage": "https://techspy.hi-daniel.com/api-docs#cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielovearth/techspy-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielovearth/techspy-cli/issues"
+  },
   "license": "MIT",
   "author": {
     "name": "TechSpy",
